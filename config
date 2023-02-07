@@ -1,8 +1,8 @@
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=sa
-springspring.datasource.password=
-#spring.jpa.database-platform=org.hibernate.dialect.H2Dialect 
-gateway.ip=192.168.1.7
-token.expirition_time=8640000
-token.secret=hfgry463hf746hf573ydh475fhy5739
+spring.application.name=myconfigapp
+server.port=8010
+spring.profile.active=git
+spring.cloud.config.server.git.uri=https://github.com/amarjeet-arora/boamsconfig
+spring.cloud.config.server.username=amarjeet-arora
+spring.cloud.config.server.password=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
+spring.cloud.config.server.git.clone-on-start=true
+spring.cloud.config.server.git.default-label=main
