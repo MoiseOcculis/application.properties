@@ -1,8 +1,8 @@
 spring.application.name=myconfigapp
 server.port=8010
 spring.profile.active=git
-spring.cloud.config.server.git.uri=https://github.com/amarjeet-arora/boamsconfig
-spring.cloud.config.server.username=amarjeet-arora
+spring.cloud.config.server.git.uri=https://github.com/MoiseOcculis/config
+spring.cloud.config.server.username=MoiseOcculis
 spring.cloud.config.server.password=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
 spring.cloud.config.server.git.clone-on-start=true
 spring.cloud.config.server.git.default-label=main
